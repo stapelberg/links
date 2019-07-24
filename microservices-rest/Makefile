@@ -1,3 +1,5 @@
+.PHONY: web router repository nuke_deployments nuke_services nuke_pods deploy
+
 all: web router repository
 
 web: web_image
